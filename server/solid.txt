@@ -1,0 +1,34 @@
+## SOLID
+
+- Single Responsibility
+- Open/Close Principle
+- Liskov Substitution Principle
+- Interface Segregation Principle
+- Dependency Inversion Principle 
+
+
+
+## Single Responsibility (importante)
+Cada classe ou função tem uma responsabilidade única;
+
+Não devemos ter na nossa aplicação uma classe ou função que executa mais de uma
+regra de negócio.
+
+Ex: função "CRIAR FEEDBACK" ela deve apenas criar feedback. 
+
+
+## Open/Close Principle
+As classes/funções devem ser abertas para extensão mas fechadas para modificação.
+
+## Liskov Substitution Principle 
+Nós devemos poder substituir uma classe pai por uma herança dela e tudo deve continuar funcionando.
+
+## Interface Segregation Principle
+Separar as interfaces no máximo possível.
+
+## Dependency Inversion Principle (importante)
+É uma forma da gente inverter as dependências da nossa classe. 
+Sempre que tiver uma classe, que depende de algo externo, 
+a tratativa de passagem de dependências deve ser feito de maneira inversa.
+ Os terceiros que devem enviar as dependências, a classe só usa.
+ Ex: Envio de e-mail. A classe deve enviar, não precisa saber se o email tá indo, sendo salvo no db. 
